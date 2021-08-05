@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+#header{
+    width: 940px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    display: table;
+    background-color: #E9DDDE   ;
+    border-radius: 5px;
+}
+
+#content{
+    width: 910px;
+    height: auto;
+    margin: 20px auto;
+    display: table;
+    background-color: #E9DDDE   ;
+    padding: 30px 15px;
+    border-radius: 5px;
+}
+#content h1{
+    margin: 10px auto 10px auto;
+    display: table;
+    color: #433f3f ;
+}
+#content .banner{
+    width: 870px;
+    height: auto;
+    margin: 10px auto 10px auto;
+    display: table;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 20px #ebbab9;
+}
+#content .yazialani{
+    text-indent:40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 0 5px 0 25px;
+    color: #433f3f ;
+}
+#content .galeri{
+
+}
+#content .galeri img{
+    width: 270px;
+    height: auto;
+    float: left;
+    margin: 10px ;
+    box-shadow: 0 0 15px 5px #ebbab9;
+    border: 3px solid #ebbab9;
+    border-radius: 10px;
+}
+
+#footer{
+    width: 940px;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    display: table;
+    border-radius: 5px;
+    background-color: #E9DDDE;
+}
+#footer p{
+    margin: 10px auto 10px auto;
+    display: table;
+    color: #433f3f ;
+    font-weight: bold;
+}
+.websitesilogo{
+    width: 170px;
+    height: auto;
+
+    margin: 20px auto 0 auto;
+    display: table;
+}
+.menu{
+    margin: 0 auto 0 auto;
+    display: table;
+    margin-bottom: 30px;
+    margin-top: 16px;
+
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.menu li a{
+    color: #433f3f ;
+    font-size: 15px;
+    text-decoration: none;
+
+    padding: 10px ;
+    border: 1px solid #ebbab9;
+    border-radius: 10px;
+}
+.menu li a:hover{
+    color: #fff;
+    border-color: #fff;
+    background-color: #ebbab9;
+}
